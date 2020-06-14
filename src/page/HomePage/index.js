@@ -128,6 +128,13 @@ class HomePageReact extends React.Component {
                                         <p
                                             className={classes.reading}
 
+                                            onClick={() => {this.props.history.push('/content_demo');}}
+                                        >
+                                            <span className={classes.font1}>Edit the content part</span>
+                                        </p>
+                                        <p
+                                            className={classes.reading}
+
                                             onClick={() => {this.props.history.push('/problem_list');}}
                                         >
                                             <span className={classes.font1}>Edit the complex number part</span>
